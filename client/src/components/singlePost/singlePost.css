@@ -1,0 +1,47 @@
+.singlePost{
+	flex: 9;
+}
+.singlePostWrapper{
+	padding: 20px;
+	padding-right: 0;
+}
+.singlePostImg{
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+	object-fit: cover;
+}
+.singlePostTitle{
+	text-align: center;
+	margin: 10px;
+	font-size: 28px;
+
+}
+.singlePostEdit{
+	float: right;
+	font-style: 16px;
+}
+.singlePostIcon{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.singlePostIcon:first-child{
+	color:aqua;
+}
+.singlePostIcon:last-child{
+
+	color: blueviolet;
+}
+.singlePostInfo{
+	 margin-bottom: 20px;
+	 display: flex;
+	justify-content: space-between;
+	font-style: 16px;
+	color: brown;
+
+}
+.singlePostDesc{
+	color: #666;
+	font-size: 13px;
+	
+}
